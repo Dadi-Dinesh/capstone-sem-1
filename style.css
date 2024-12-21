@@ -48,14 +48,7 @@
 .heading{
     font-family: 'BabesNeue';
 }
-#hr1 {
-    height: 0.04rem;
-    background-color: black;
-    font-weight: 100;
-}
-#hr2 {
-    margin-top: 4rem;
-}
+
 .bolddiv{
     text-align: center;
     margin-top: 4rem;
@@ -74,9 +67,6 @@
     margin: 0;
     padding: 0;
 }
-#raw {
-    word-spacing: 1rem;
-}
 .main-img {
     margin-top: 1.3rem;
     width: 95%;
@@ -86,13 +76,13 @@
 }
 .grid{
     display:grid;
-    grid-template-columns: repeat(3,auto);
+    grid-template-columns: repeat(3);
     border-radius: 30px;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3);
     gap: 2.4rem;
     padding: 2.4rem;
     margin-top: 4rem;
