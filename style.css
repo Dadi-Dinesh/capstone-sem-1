@@ -76,13 +76,13 @@
 }
 .grid{
     display:grid;
-    grid-template-columns: repeat(3);
+    grid-template-columns: repeat(3, 1fr);
     border-radius: 30px;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2.4rem;
     padding: 2.4rem;
     margin-top: 4rem;
@@ -168,7 +168,6 @@
     border: 1px solid black;
     border-radius: 0.5rem;
 }
-
 
 @media (max-width: 1024px) {
     .grid {
